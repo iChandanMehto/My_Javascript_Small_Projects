@@ -1,0 +1,82 @@
+/* Apply a dark background */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #ffffff;
+}
+
+/* Styling for the timer display inside a circle */
+#timer {
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #1e1e1e;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+    border: 3px solid #bb86fc;
+}
+
+/* Container for buttons */
+div {
+    text-align: center;
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    margin-bottom: 10px;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Start button - Green */
+#start {
+    background-color: #4caf50;
+    color: #ffffff;
+}
+
+#start:hover {
+    background-color: #388e3c;
+    transform: scale(1.05);
+}
+
+/* Stop button - Red */
+#stop {
+    background-color: #e53935;
+    color: #ffffff;
+}
+
+#stop:hover {
+    background-color: #c62828;
+    transform: scale(1.05);
+}
+
+/* Reset button - Blue */
+#reset {
+    background-color: #1e88e5;
+    color: #ffffff;
+}
+
+#reset:hover {
+    background-color: #1565c0;
+    transform: scale(1.05);
+}

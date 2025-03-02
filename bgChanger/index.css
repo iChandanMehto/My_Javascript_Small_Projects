@@ -1,0 +1,56 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Puts buttons at the bottom */
+    height: 100vh;
+    background-color: #1a1a1a; /* Dark background */
+    padding-bottom: 20px; /* Space from bottom */
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    gap: 15px; /* Space between buttons */
+}
+
+/* Button Styling */
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px; /* Rounded 'lg' */
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+/* Individual Button Colors */
+#blue {
+    background-color: blue;
+    color: white;
+}
+
+#orangeRed {
+    background-color: orangered;
+    color: white;
+}
+
+#green {
+    background-color: green;
+    color: white;
+}
+
+/* Button Hover Effects */
+button:hover {
+    opacity: 0.8;
+}
